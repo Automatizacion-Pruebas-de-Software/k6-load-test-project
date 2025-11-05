@@ -10,6 +10,7 @@ export const options = {
   stages: [
     { duration: '30s', target: 50 },  // Ramp up to 50 VU
     { duration: '1m', target: 200 },  // Mantén 200 VU (stress)
+    { duration: '45s', target: 175 },  // Mantenida
     { duration: '30s', target: 50 },  // Ramp down
   ],
   thresholds: {
